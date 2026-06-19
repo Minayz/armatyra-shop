@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armatyra Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/8_1sasa11.jpg">
+</head>
+
+<body>
+
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container header-wrapper">
+            <div class="logo">Armatyra Shop</div>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#catalog">Каталог</a></li>
+                    <li class="nav-item"><a href="#about">О нас</a></li>
+                    <li class="nav-item"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="container" id="catalog">
+        <h2 class="catalog-title">Наш ассортимент</h2>
+        
+        <div class="product-grid">
+            <!-- Товар 1 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=600&auto=format&fit=crop" alt="Арматура А500Ц" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Арматура рифленая А500С 12 мм</h3>
+                    <p class="product-desc">Высокопрочная горячекатаная сталь для фундаментов и несущих железобетонных конструкций. Длина — 11.7 м.</p>
+                    <div class="product-footer">
+                        <div class="product-price">74 500 ₽ / т</div>
+                        <button class="btn-buy" onclick="alert('Товар добавлен в корзину!')">Купить</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Товар 2 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=600&auto=format&fit=crop" alt="Арматура гладкая" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Арматура гладкая А240 8 мм</h3>
+                    <p class="product-desc">Применяется для изготовления петель, хомутов и соединительных элементов металлических каркасов.</p>
+                    <div class="product-footer">
+                        <div class="product-price">71 200 ₽ / т</div>
+                        <button class="btn-buy" onclick="alert('Товар добавлен в корзину!')">Купить</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Товар 3 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=600&auto=format&fit=crop" alt="Композитная арматура" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Стеклопластиковая арматура 10 мм</h3>
+                    <p class="product-desc">Современный композитный материал. Не ржавеет, весит в 9 раз меньше стали, идеален для малоэтажного строительства.</p>
+                    <div class="product-footer">
+                        <div class="product-price">35 ₽ / м</div>
+                        <button class="btn-buy" onclick="alert('Товар добавлен в корзину!')">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer id="contacts">
+        <div class="container footer-wrapper">
+            <div class="footer-contacts">
+                <!-- Ссылка для автоматического набора номера на смартфонах -->
+                <a href="tel:+79290121295" class="phone">+7 (929) 012-12-95</a>
+            </div>
+            
+            <!-- Социальные сети с прямыми внешними ссылками (target="_blank" открывает в новой вкладке) -->
+            <div class="social-links">
+                <a href="https://vk.com" target="_blank" rel="noopener noreferrer" class="social-btn vk">ВКонтакте</a>
+                <a href="https://t.me" target="_blank" rel="noopener noreferrer" class="social-btn tg">Telegram</a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn inst">Instagram</a>
+            </div>
+
+            <div class="copyright">
+                &copy; 2026 armatyra shop. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
